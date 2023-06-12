@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://ltj8ucx214by"]
+
+[ext_resource type="PackedScene" uid="uid://b3mex6qse6bbw" path="res://yoda_1.tscn" id="1_victs"]
+[ext_resource type="Texture2D" uid="uid://ddvxsou6nuxhj" path="res://Art/yoda_2.jpg" id="2_23xhr"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Yoda1" parent="." instance=ExtResource("1_victs")]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(573, 173)
+scale = Vector2(1.97111, 0.416914)
+texture = ExtResource("2_23xhr")
