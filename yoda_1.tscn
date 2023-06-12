@@ -1,7 +1,8 @@
-[gd_scene load_steps=2 format=3 uid="uid://dv3a8aljhnu0o"]
+[gd_scene load_steps=2 format=3 uid="uid://b3mex6qse6bbw"]
 
 [ext_resource type="Texture2D" uid="uid://dpnmkjq52ttww" path="res://Art/yoda_1.jpg" id="1_g4xmq"]
 
 [node name="Yoda1" type="Sprite2D"]
-position = Vector2(306, 216)
+position = Vector2(1085.5, 238.25)
+scale = Vector2(0.282222, 1.53279)
 texture = ExtResource("1_g4xmq")
