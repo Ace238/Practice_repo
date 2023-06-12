@@ -3,7 +3,6 @@
 [ext_resource type="Texture2D" uid="uid://dpnmkjq52ttww" path="res://Art/yoda_1.jpg" id="1_g4xmq"]
 
 [node name="Yoda1" type="Sprite2D"]
-
-position = Vector2(236, 489)
-
+position = Vector2(580, 325.25)
+scale = Vector2(0.848889, 2.09016)
 texture = ExtResource("1_g4xmq")
