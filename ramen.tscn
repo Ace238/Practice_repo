@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://ctbuuqb5sl1xc"]
+
+[ext_resource type="Texture2D" uid="uid://cmtm18sbocoeq" path="res://Art/falcon_ramen.jpg" id="1_snx6e"]
+[ext_resource type="Texture2D" uid="uid://ddvxsou6nuxhj" path="res://Art/yoda_2.jpg" id="2_yk14d"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="FalconRamen" type="Sprite2D" parent="."]
+position = Vector2(575.5, 328)
+scale = Vector2(1.43625, 1.44889)
+texture = ExtResource("1_snx6e")
+
+[node name="Yoda2" type="Sprite2D" parent="."]
+position = Vector2(920, 147)
+scale = Vector2(0.59, 0.524481)
+texture = ExtResource("2_yk14d")
