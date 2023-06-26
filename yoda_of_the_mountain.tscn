@@ -1,25 +1,32 @@
-[gd_scene load_steps=5 format=3 uid="uid://c487ks5bmlyeo"]
+[gd_scene load_steps=3 format=3 uid="uid://c487ks5bmlyeo"]
 
 [ext_resource type="Texture2D" uid="uid://cpstw3bf6qbe6" path="res://Art/red_dusk.png" id="1_n4xuk"]
-[ext_resource type="Texture2D" uid="uid://dpnmkjq52ttww" path="res://Art/yoda_1.jpg" id="2_pwjs4"]
-[ext_resource type="Texture2D" uid="uid://ddvxsou6nuxhj" path="res://Art/yoda_2.jpg" id="3_ap3q0"]
-[ext_resource type="Texture2D" uid="uid://mdoncjohajin" path="res://Art/yoda_3.jpg" id="4_rvhjs"]
+[ext_resource type="Texture2D" uid="uid://h55c22ynb2yh" path="res://Art/cat.png" id="2_8tdpb"]
 
-[node name="Node2D" type="Node2D"]
+[node name="Node2D" type="CenterContainer"]
+offset_left = -14.0
+offset_top = -18.0
+offset_right = -14.0
+offset_bottom = -18.0
 
 [node name="RedDusk" type="Sprite2D" parent="."]
-position = Vector2(562, 324)
-scale = Vector2(6.7925, 6.7925)
+position = Vector2(161.375, 103.219)
+scale = Vector2(1.46625, 1.67563)
 texture = ExtResource("1_n4xuk")
 
-[node name="Yoda1" type="Sprite2D" parent="."]
-position = Vector2(228, 491)
-texture = ExtResource("2_pwjs4")
+[node name="Cat" type="Sprite2D" parent="."]
+position = Vector2(161, 139)
+scale = Vector2(0.0400917, 0.0400917)
+texture = ExtResource("2_8tdpb")
 
-[node name="Yoda2" type="Sprite2D" parent="."]
-position = Vector2(926, 479)
-texture = ExtResource("3_ap3q0")
+[node name="Cat" type="Sprite2D" parent="Cat"]
+position = Vector2(-2544.17, -399.086)
+scale = Vector2(0.642513, 0.642513)
+texture = ExtResource("2_8tdpb")
 
-[node name="Yoda3" type="Sprite2D" parent="."]
-position = Vector2(574, 169)
-texture = ExtResource("4_rvhjs")
+[node name="Cat" type="Sprite2D" parent="Cat/Cat"]
+position = Vector2(8035.88, -582.312)
+rotation = 2.98626
+scale = Vector2(0.820371, -1.02858)
+skew = 0.0628319
+texture = ExtResource("2_8tdpb")
