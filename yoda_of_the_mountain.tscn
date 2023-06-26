@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://c487ks5bmlyeo"]
+
+[ext_resource type="Texture2D" uid="uid://cpstw3bf6qbe6" path="res://Art/red_dusk.png" id="1_n4xuk"]
+[ext_resource type="Texture2D" uid="uid://dpnmkjq52ttww" path="res://Art/yoda_1.jpg" id="2_pwjs4"]
+[ext_resource type="Texture2D" uid="uid://ddvxsou6nuxhj" path="res://Art/yoda_2.jpg" id="3_ap3q0"]
+[ext_resource type="Texture2D" uid="uid://mdoncjohajin" path="res://Art/yoda_3.jpg" id="4_rvhjs"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="RedDusk" type="Sprite2D" parent="."]
+position = Vector2(562, 324)
+scale = Vector2(6.7925, 6.7925)
+texture = ExtResource("1_n4xuk")
+
+[node name="Yoda1" type="Sprite2D" parent="."]
+position = Vector2(228, 491)
+texture = ExtResource("2_pwjs4")
+
+[node name="Yoda2" type="Sprite2D" parent="."]
+position = Vector2(926, 479)
+texture = ExtResource("3_ap3q0")
+
+[node name="Yoda3" type="Sprite2D" parent="."]
+position = Vector2(574, 169)
+texture = ExtResource("4_rvhjs")
